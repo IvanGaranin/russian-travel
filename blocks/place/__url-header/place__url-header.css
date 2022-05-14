@@ -1,9 +1,9 @@
-.place__website_url-header {
+.place__url-header {
     max-width: 456px;
     grid-area: website;
     margin: 0;
     padding-top: 106px;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -13,21 +13,14 @@
 }
 
 @media screen and (max-width: 768px) {
-    .place__website_url-header {
+    .place__url-header {
         max-width: 352px;
         padding-top: 46px;
     }
 }
 
-@media screen and (max-width: 560px) {
-    .place__website_url-header {
-        margin: 0 0 0 16px;
-        padding-top: 0px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__website_url-header {
+@media screen and (max-width: 767px) {
+    .place__url-header {
         max-width: 288px;
         margin: 0 0 0 16px;
         padding-top: 0px;

@@ -1,0 +1,14 @@
+.places__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .places__list {
+        gap: 50px;
+    }
+    
+}

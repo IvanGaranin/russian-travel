@@ -1,20 +1,19 @@
-.footer__links {
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 18px;
-    list-style: none;
 }
 
-@media screen and (max-width: 462px) {
-    .footer__links {
+@media screen and (max-width: 767px) {
+    .footer__menu {
         flex-direction: column;
         gap: 25px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .footer__links {
+    .footer__menu {
         gap: 32px;
     }
 }

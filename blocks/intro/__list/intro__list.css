@@ -1,11 +1,25 @@
 .intro__list {
     margin: 0;
-    padding: 0;
+    padding: 33px 0 0 0;
     list-style: none;
-    color: #fff;
-    font-family: 'Inter';
+    max-width: 690px;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 12px;
     line-height: 150%;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__list {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__list {
+        max-width: 288px;
+        padding: 34px 0 0 0;
+    }
 }

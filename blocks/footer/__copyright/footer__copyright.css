@@ -2,31 +2,23 @@
     color: #fff;
     margin: 0;
     padding: 0;
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 114%;
 }
 
-@media screen and (max-width: 464px) {
+@media screen and (max-width: 767px) {
     .footer__copyright{
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
         line-height: 107%;
         padding: 48px 0 24px 0;
+        min-width: 170px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .footer__copyright {
-        font-family: 'Inter';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
         line-height: 100%;
-        padding: 48px 0 24px 0;
     }
 }
