@@ -20,7 +20,6 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-        margin: 0;
         max-width: 720px;
         padding-top: 88px;
         padding-right: 24px;
@@ -28,16 +27,10 @@
     }
 }
 
-@media screen and (max-width: 630px) {
-    .footer {
-        flex-direction: column;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .footer {
         max-width: 186px;
         padding: 64px 0 0 16px;
-        margin: 0;
+        flex-direction: column;
     }
 }

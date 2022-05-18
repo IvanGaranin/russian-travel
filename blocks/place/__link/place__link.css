@@ -2,7 +2,7 @@
     max-width: 456px;
     grid-area: website;
     margin: 0;
-    padding: 130px 0 0 0;
+    padding: 82px 0 0 0;
     font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -11,6 +11,7 @@
     text-decoration: underline;
     color: #fff;
     transition: opacity 1s linear;
+    align-self: flex-end;
 }
 
 .place__link:hover {
