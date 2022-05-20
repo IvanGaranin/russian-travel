@@ -30,8 +30,13 @@
     .place__title {
         max-width: 288px;
         box-sizing: border-box;
-        margin: 0 0 0 16px;
         font-size: 32px;
         line-height: 109%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .place__title {
+        margin-left: 16px;
     }
 }

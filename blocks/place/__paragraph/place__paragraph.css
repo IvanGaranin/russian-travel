@@ -31,6 +31,11 @@
 @media screen and (max-width: 767px) {
     .place__paragraph {
         max-width: 288px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .place__paragraph {
         margin: 25px 0 0 16px;
     }
 
